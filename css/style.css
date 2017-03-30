@@ -1,0 +1,384 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "GothamRounded-Book";
+	font-size: 12px;
+	color: #373737;
+}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+/*_________BUTTONS__________*/
+.button{
+	display: block;
+	height: 49px;
+	width: 165px;
+	border-radius: 3px;
+	background-color: #16a085;
+	border:none;
+	font-size: 12px;
+	font-family: "GothamRounded-Bold";
+	letter-spacing: 2px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 50px;
+}
+
+.green{
+	width: 192px;
+	height: 50px;
+	margin-left: 0;
+	line-height: 56px;
+}
+.learn{
+	border-radius: 0;
+}
+.ckeck{
+	width: 63px;
+	height: 60px;
+	border-radius: 0;
+	margin-left: -3px;
+}
+.download-button{
+	display: inline-block;
+	width: 296px;
+	height: 57px;
+	border-radius: 3px;
+	background-color: #1abc9c;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 24px;
+	font-family: "GothamRounded-Bold";
+	font-size: 16px;
+	margin: 0 10px;
+	letter-spacing: 2px;
+	overflow: hidden;
+}
+i.fa{
+	padding: 14px 15px 14px 15px;
+	background-color: #16a085;
+	display: inline-block;
+	font-size: 28px;
+	margin-left: 81px;
+
+}
+.android{
+	padding-left: 30px;
+	letter-spacing: 4px;
+}
+
+i.fa.fa-android{
+	margin-left: 57px;
+	padding: 14px 12px 14px 18px;
+}
+
+/*_________END__BUTTONS__________*/
+
+.wrap{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+/*______HEADER______*/
+.header{
+	height: 745px;
+	background-image: url("../img/headerbg.jpg");
+	padding-top: 66px;
+}
+.menu{
+	width: 800px;
+	margin: 0 auto;
+}
+.menu li{
+	display: inline-block;
+	list-style-type: none;
+    padding-left: 32px;
+    padding-right: 29px;
+    letter-spacing: 2.2px;
+}
+.menu li:last-child{
+	padding-right: 0;
+	padding-left: 44px;
+}
+.logo{
+	padding: 10px 80px;
+	margin: 0 88px 0 35px;
+}
+.menu li a{
+	color: #fff;
+	font-family: "GothamRounded-Bold";
+	font-size: 16px;
+	position: relative;
+}
+.menu img{
+	position: absolute;
+	top: -25px;
+    left: 33px;
+}
+.header-title{
+	color: #fff;
+	width: 512px;
+	margin: 243px auto 0;
+	text-align: center;
+}
+.header-title p{
+	font-size: 16px;
+	font-family: "GothamRounded-Medium";
+	padding-bottom: 26px;
+	letter-spacing: 2.4px;	
+}
+h1{
+	font-size: 36px;
+	font-family: "GothamRounded-Bold";
+	text-transform: uppercase;
+	letter-spacing: 5.1px;
+	padding-bottom: 7px;
+}
+.soc-icons{
+	margin: 212px auto 0;
+	width: 122px;
+}
+.soc-icons li{
+	display: inline-block;
+	padding: 8px 1px 8px 11px;
+}
+
+/*_______RAPPRESENT_______*/
+.rappresent{
+	background-color: #f5f6f7;
+	height: 495px;
+	background-image: url("../img/hendphone.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.desc-rapp{
+	padding-top: 109px;
+	padding-left: 128px;
+}
+h3{
+	font-size: 18px;
+	font-family: "GothamRounded-Bold";
+	margin-bottom: 40px;
+	color: #16a085;
+	letter-spacing: 2.7px;
+	text-transform: uppercase;
+}
+.info{
+	width: 430px;
+	letter-spacing: 1.7px;
+    line-height: 2;
+    padding-bottom: 40px;
+}
+.info span{
+	font-family: "GothamRounded-Bold";
+}
+.green{
+	width: 192px;
+	height: 50px;
+}
+
+/*________DESIGN________*/
+.design{
+	height: 555px;
+	padding-top: 139px;
+	overflow: hidden;
+}
+.design:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.design-img{
+	width: 320px;
+	margin-left: 125px;
+	float: left;
+	overflow: hidden;
+    margin-top: 4px;
+}
+.design h3{
+	margin-bottom: 36px;
+}
+.design-desc{
+	margin-left: 321px;
+	float: left;
+}
+.design-desc p{
+	line-height: 1.9;
+	padding-bottom: 36px;
+	padding-left: 3px;
+}
+p.number{
+	font-family: "GothamRounded-Bold";
+	font-size: 12px;
+	padding-top: 42px;
+    letter-spacing: 1.2px;
+    padding-bottom: 1px;
+}
+.arrow img{
+	padding-right: 18px;
+}
+/*_______COMMUNITY_________*/
+.community{
+	width: 1280px;
+	height: 485px;
+	background-color: #f5f6f7;
+	padding-top: 90px;
+	padding-left: 128px;
+}
+.community:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.community-block{
+	float: left;
+	padding-top: 77px;
+	text-align: center;
+}
+h4{
+	font-family: "GothamRounded-Bold";
+	font-size: 16px;
+	padding-bottom: 18px;
+	text-transform: uppercase;
+	padding-top: 24px;
+	letter-spacing: 2.4px;
+}
+.community-block p{
+	font-family: "GothamRounded-Medium";
+	font-size: 10px;
+	width: 143px;
+	letter-spacing: 1.5px;
+	margin: 0 auto;
+}
+.commun-img{
+	margin-left: 80px;
+	float: left;
+}
+.commun-img .arrow{
+	text-align: right;
+	padding-bottom: 15px;
+}
+.car{
+	margin-right: 20px;
+}
+.commun-img .arrow{
+	padding-bottom: 7px;
+}
+.commun-img .arrow img{
+	padding: 0 0 0 12px;
+	margin-top: 5px;
+}
+/*_______SUBSCRIBE________*/
+.subscribe{
+	height: 790px;
+	padding-top: 345px;
+	background: url("../img/bgsubscribe.jpg") no-repeat;
+}
+.subscribe-block{
+	width: 480px;
+	margin: 0 auto;
+}
+.subscribe-block p{
+	color: #fff;
+	font-family: "GothamRounded-Bold";
+	font-size: 24px;
+	letter-spacing: 3.6px;
+	text-transform: uppercase;
+}
+form{
+	border-radius: 4px;
+	height: 60px;
+	width: 345px;
+	overflow: hidden;
+	margin: 29px auto;
+}
+input{
+	width: 280px;
+	height: 60px;
+	border: none;
+	font-family: "GothamRounded-Medium";
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-left: 24px;
+	color: black;
+	display: inline-block;
+}
+.ckeck{
+	width: 63px;
+	height: 60px;
+	border-radius: 0;
+	display: inline-block;
+	line-height: 63px;
+}
+
+/*_____DOWNLOAD_____*/
+.download{
+	height: 395px;
+	background-color: #f5f6f7;
+	text-align: center;
+	padding-top: 85px;
+	text-transform: uppercase;
+}
+h5{
+	font-family: "GothamRounded-Bold";
+	font-size: 20px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.download p{
+	font-family: "GothamRounded-Medium";
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    line-height: 1.9;
+    width: 860px;
+    margin: 7px auto 40px;
+}
+/*______FOOTER________*/
+.footer{
+	height: 130px;
+	background-color: #fff;
+	padding: 37px 127px;
+}
+.footer-block{
+	background: url(../img/photografgreen.png) no-repeat right top;
+	padding-bottom: 15px;
+	-webkit-background-size: 55px 54px;
+	background-size: 55px 54px;
+}
+.footer-menu{
+	padding-top: 5px;
+	list-style: none;
+	margin-bottom: 18px;
+}
+.footer-menu li{
+	display: inline-block;
+	padding: 0 10px;
+	border-right: 2px solid #16a085;
+}
+.footer-menu li:first-child{
+	padding-left: 0;
+}
+.footer-menu li:last-child{
+	border-right: none;
+}
+.footer-menu li a{
+	display: block;
+	font-family: "GothamRounded-Bold";
+	font-size: 15px;
+	color: #373737;
+	letter-spacing: 0.7px;
+}
+.footer p{
+	font-family: "GothamRounded-Bold";
+	font-size: 14px;
+	letter-spacing: 2px;
+}
