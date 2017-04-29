@@ -7,6 +7,7 @@
     
   	<link rel="stylesheet" href="css/libs.min.css">
 	  <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/selectstyle.css"> 
   </head>
   <body>
   	<section class="header">
@@ -338,8 +339,16 @@
     		</div>
     		<a class="footer__logo" href="request.html"></a>
     	</footer>
+  <script type="text/javascript" src='js/jquery.js'></script>    
+ <script type="text/javascript" src='js/select.js'></script> 
   
-    <script type="text/javascript" src="js/libs.min.js"></script> 
+  <script type="text/javascript">
+   $("#city").SelectStyle()
+ </script>
+  <script type="text/javascript">
+   $("#metro").SelectStyle()
+ </script>
+    <!-- <script type="text/javascript" src="js/libs.min.js"></script> 
     <script type="text/javascript">
       $(function() {
 
@@ -347,7 +356,7 @@
 
         });
 
-    </script>
+    </script> -->
       <script>
       function openNav() {
         document.getElementById("myNav").style.height = "100%";
