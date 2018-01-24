@@ -1,0 +1,27 @@
+body{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+#out {
+	height: 150px;
+	margin: 20px;
+}
+.item{
+	
+	background-color: #ccc;
+	width: 28%;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #838b75;
+}
+.item_img{
+	margin: 10px auto;
+	width: 128px;
+}
+.item_descrip{
+	margin: 10px;
+}
+.item_descrip__red{
+	color: #f00;
+}
